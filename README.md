@@ -16,7 +16,7 @@
   <summary>자세히</summary>
   <ul>
     <li>매 주 금~일에 <a href="https://devjeong.com/algorithm/algorithm-1/">백준 문제 추천 사이트</a>에서 알고리즘 당 세 문제를 선정한다. (스터디장 주관)</li>
-    <li>문제 선정 후 <a href="https://www.acmicpc.net/group/workbook/18220">백준 23-2 네넷 알고리즘 스터디 그룹</a>에 주차+문제를 추가한다. (스터디장 or 도현 주관)</li>
+    <li>문제 선정 후 <a href="https://www.acmicpc.net/group/workbook/18220">백준 23-2 네넷 알고리즘 스터디 그룹</a>에 주차+문제를 추가한다. (스터디장 주관)</li>
     <li>이슈를 작성한다. (스터디장 주관)</li>
   </ul>
 </details>

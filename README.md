@@ -143,7 +143,7 @@ ex) 스터디를 진행한 wonil-programmer/nestnet_algorithm_2023_winter_interm
 
 * Pull Request를 보냈을 때의 상태는 아래와 같습니다.
 
-![pull request 상태](./images/)
+![pull request 상태](./images/pr_status.png)
 
 --- 
 <br/>

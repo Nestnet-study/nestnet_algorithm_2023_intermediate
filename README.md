@@ -16,10 +16,10 @@
 앞으로 모든 스터디 진행은 다음과 같은 방식으로 자신의 계정 아래에 있는 저장소를 활용해 진행해주세요.
 
 * 이미지와 같이 'Nestnet-study/nestnet_algorithm_2023_winter_intermediate' 저장소 우측 상단의 fork 버튼을 클릭해 fork합니다.
-  ![fork](./images/)
+  ![fork](./images/fork.png)
 
 * fork를 완료한 후의 저장소 상태는 아래와 같습니다.
-  ![fork my repo](./images/)
+  ![fork my repo](./images/fork_status.png)
 
 ---
 
@@ -29,21 +29,21 @@
 >
 > clone 명령은 github.com에 존재하는 이 저장소를 자신의 노트북 또는 PC로 복사하는 과정입니다.
 
-* cmd(명령 프롬프트) 등 자신이 사용하는 터미널을 열어 (예제 이미지는 git bash 터미널을 사용) 다음 명령을 입력합니다. (이때, 자신이 원하는 아무 폴더에서 진행하시면 됩니다. 단, `git clone` 명령 입력시 자동으로 '저장소 아이디' 폴더명의 폴더가 자동 생성되므로 폴더를 따로 생성하지 않고, clone으로 받아올 폴더를 저장하길 원하는 폴더 내에서 명령어를 입력하면 됩니다. ex) `Desktop\wonil`)
+* cmd(명령 프롬프트) 등 자신이 사용하는 터미널을 열어 (예제 이미지는 git bash 터미널을 사용) 다음 명령을 입력합니다. (이때, 자신이 원하는 아무 폴더에서 진행하시면 됩니다. 단, `git clone` 명령 입력시 자동으로 '저장소 아이디' 폴더명의 폴더가 자동 생성되므로 폴더를 따로 생성하지 않고, clone으로 받아올 폴더를 저장하길 원하는 폴더 내에서 명령어를 입력하면 됩니다. ex) `Desktop\Wonil`)
 
 ```
 git clone https://github.com/{본인_아이디}/{저장소 아이디}.git
-ex) git clone https://github.com/wonil-programmer..git
+ex) git clone https://github.com/wonil-programmer.nestnet_algorithm_2023_winter_intermediate.git
 ```
 
 ```
 // clone한 폴더로 이동하는 방법
 cd {저장소 아이디}
-ex) cd 
+ex) cd nestnet_algorithm_2023_winter_intermediate
 ```
 
 * clone을 완료한 후의 저장소 상태는 아래와 같습니다.
-  ![clone repository](./images/)
+  ![clone repository](./images/clone_status.png)
 
 ---
 
@@ -60,7 +60,7 @@ ex) git checkout -b wonil
 ```
 
 * 브랜치를 생성한 후의 상태는 다음과 같다.
-  ![checkout javajigi](./images/)
+  ![checkout wonil](./images/branch_status.png)
 
 ---
 
@@ -72,9 +72,6 @@ ex) git checkout -b wonil
 
 * Visual Studio Code를 시작
 * Open Project
-
-![open project](./images/)
-
 * 앞에서 clone한 폴더를 선택합니다.
 
 ---
@@ -99,8 +96,8 @@ git add -A(또는 . 또는 *) // 변경된 전체 파일을 한번에 반영
 git commit -m "(#이슈번호) [N주차] 허원일" // 작업한 내용을 메시지에 기록
 ```
 
-* 기능 구현을 완료하고 add, commit 명령을 실행한 후의 상태는 아래와 같습니다.
-  ![add commit1](./images/)
+* 소스코드 작성을 완료하고 add 명령을 실행한 후의 상태는 아래와 같습니다. (commit도 진행합니다.)
+  ![add commit1](./images/add_status.png)
 
 ---
 
@@ -115,7 +112,9 @@ ex) git push origin wonil
 ```
 
 * push 명령을 실행한 후의 상태는 아래와 같습니다.
-  ![push1](./images/)
+  ![push1](./images/commit_push_status.png)
+* push 명령이 완료된 상태는 아래와 같습니다.
+  ![push1](./images/push_status.png)
 
 ---
 
@@ -132,18 +131,19 @@ ex) 스터디를 진행한 wonil-programmer/nestnet_algorithm_2023_winter_interm
 
 * 브라우저에서 github 저장소에 접근
 * 브랜치를 작업 브랜치로 변경(앞 단계의 예에서는 wonil)
-* **"New pull request"** 버튼 클릭
 
-![pull request 보내기](./images/etc/pull_request_1.png)
+* **"Compare & Create pull request"** 버튼을 클릭해 Pull Request를 보내주세요.
 
-* Pull Request 제목은 `[$미션제목] $이름 미션 제출합니다.` 형식으로 작성해주세요.
-* 현재 미션에서 작업한 내용을 입력하고 **"Compare & Create pull request"** 버튼을 클릭해 Pull Request를 보내주세요.
+![pull request 버튼클릭](./images/pr.png)
 
-![pull request 브랜치 변경](./images/)
+* 정해진 양식에 따라 작성한 후 Pull Request를 완료합니다.
+
+![pull request 작성](./images/pr_detail.png)
+![pull request 완료](./images/pr_complete.png)
 
 * Pull Request를 보냈을 때의 상태는 아래와 같습니다.
 
-![pull request](./images/)
+![pull request 상태](./images/)
 
 --- 
 <br/>

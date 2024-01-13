@@ -52,11 +52,13 @@ ex) cd nestnet_algorithm_2023_winter_intermediate
 > git은 서로 다른 작업을 하기 위한 별도의 공간을 만들기 위해 브랜치를 생성할 수 있습니다.
 
 * 터미널에서 다음 명령을 입력해 브랜치를 생성합니다.
+  
+:wink: **스터디의 브랜치명 생성 규칙을 따라주세요 `{본인 영문 이름(성 제외)-week_N(해당주차)}`**
 
 ```
 git checkout -b {본인 영문 이름(성 제외)}
-ex) git checkout -b wonil
-// git switch -C wonil 도 가능
+ex) git checkout -b wonil-week_1
+// git switch -C wonil-week_1 도 가능
 ```
 
 * 브랜치를 생성한 후의 상태는 다음과 같다.
@@ -107,7 +109,7 @@ git commit -m "(#이슈번호) [N주차] 허원일" // 작업한 내용을 메�
 github.com의 저장소에도 동일하게 반영하기 위해 push 명령어를 사용합니다.
 
 ```
-git push origin 브랜치이름
+git push origin {브랜치이름}
 ex) git push origin wonil
 ```
 
